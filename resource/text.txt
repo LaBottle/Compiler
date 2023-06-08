@@ -1,0 +1,41 @@
+void f0() {}
+void f1() {return;}
+
+integer f2(integer a) {
+    if a<=0 or a>100 then {
+        return 0;
+    }
+    break;
+}
+
+float f3(float a) {
+    char c;
+    c = 65;
+    if 1>2 and 2<>1 or a==1 and 1<=a then
+        a = a + c;
+    else
+        a = a + 1 * (1 - 1.1) / 1.1 ;
+    return a;
+}
+
+char f3(char a) {
+    while a>0 do {
+        if a>100 then {
+            break;
+        }
+        
+        if a == 50 then
+            continue;
+        a = a - 1;
+    }
+    return a;
+}
+
+string f4(integer a) {
+    {
+        println(a, a);
+        println(1+1);
+        println();
+    }
+    return a;
+}
