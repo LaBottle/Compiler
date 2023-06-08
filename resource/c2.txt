@@ -1,0 +1,4 @@
+program Main
+procedure main ();
+begin
+end
